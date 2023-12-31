@@ -44,3 +44,28 @@ SELECT * FROM employees WHERE department = 'Sales';
 This query retrieves all columns from the `employees` table where the `department` column equals `'Sales'`.
 
 These are the fundamental operations for selecting data in SQL.
+
+##   Practice Questions
+
+<details>
+<summary><b>Revising the Select Query I</b></summary>
+
++ <details>
+    <summary><b>Questions</b></summary>
+
+   Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
+   The CITY table is described as follows:
+   <img src="assets/revising-select-query-I.jpg" alt="Table" style="height:100%; width:60%">
+
+
+   </details>
++ <details>
+    <summary><b>Code</b></summary>
+    
+    ```sql
+    SELECT * 
+    FROM CITY 
+    WHERE COUNTRYCODE="USA" AND POPULATION>1000000
+    ```
+   </details>
+</details>
