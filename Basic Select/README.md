@@ -504,7 +504,9 @@ These are the fundamental operations for selecting data in SQL.
     <summary><b>Code</b></summary>
     
     ```sql
-    code
+    SELECT DISTINCT CITY 
+    FROM STATION 
+    WHERE CITY NOT LIKE('[A,E,I,O,U]%') AND CITY NOT LIKE('%[A,E,I,O,U]');
     ```
    </details>
 </details>
