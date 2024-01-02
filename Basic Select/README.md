@@ -92,3 +92,25 @@ These are the fundamental operations for selecting data in SQL.
     ```
    </details>
 </details>
+
+
+<details>
+<summary><b>Select All</b></summary>
+
++ <details>
+    <summary><b>Questions</b></summary>
+
+   Query all columns (attributes) for every row in the CITY table. The CITY table is described as follows:
+
+   <img src="assets/select-all.jpg" alt="Table" style="height:100%; width:60%">
+
+
+   </details>
++ <details>
+    <summary><b>Code</b></summary>
+    
+    ```sql
+    code
+    ```
+   </details>
+</details>
