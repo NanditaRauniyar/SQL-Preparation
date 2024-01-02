@@ -270,7 +270,15 @@ These are the fundamental operations for selecting data in SQL.
     <summary><b>Code</b></summary>
     
     ```sql
-    code
+    (SELECT CITY, LENGTH(CITY) AS CITYLENGTH 
+    FROM STATION 
+    ORDER BY CITYLENGTH, CITY
+    LIMIT 1)
+    UNION
+    (SELECT CITY, LENGTH(CITY) AS CITYLENGTH 
+    FROM STATION 
+    ORDER BY CITYLENGTH DESC, CITY
+    LIMIT 1)
     ```
    </details>
 </details>
