@@ -323,3 +323,29 @@ These are the fundamental operations for selecting data in SQL.
     
    </details>
 </details>
+
+<details>
+<summary><b>Weather Observation Station 7</b></summary>
+
++ <details>
+    <summary><b>Questions</b></summary>
+
+   Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+
+    Input Format
+
+    The STATION table is described as follows:
+   <img src="assets/Weather-Observation-Station-5.jpg" alt="Table" style="height:100%; width:60%">
+
+   where LAT_N is the northern latitude and LONG_W is the western longitude.
+
+
+   </details>
++ <details>
+    <summary><b>Code</b></summary>
+    
+    ```sql
+    code
+    ```
+   </details>
+</details>
