@@ -184,3 +184,23 @@ These are the fundamental operations for selecting data in SQL.
     ```
    </details>
 </details>
+
+<details>
+<summary><b>Weather Observation Station 1</b></summary>
+
++ <details>
+    <summary><b>Questions</b></summary>
+
+   Query a list of CITY and STATE from the STATION table.The STATION table is described as follows:
+   <img src="assets/Weather-Observation-Station-1.jpg" alt="Table" style="height:100%; width:60%">
+
+
+   </details>
++ <details>
+    <summary><b>Code</b></summary>
+    
+    ```sql
+    code
+    ```
+   </details>
+</details>
