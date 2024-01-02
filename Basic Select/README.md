@@ -55,7 +55,7 @@ These are the fundamental operations for selecting data in SQL.
 
    Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
    The CITY table is described as follows:
-   
+
    <img src="assets/revising-select-query-I.jpg" alt="Table" style="height:100%; width:60%">
 
 
@@ -67,6 +67,26 @@ These are the fundamental operations for selecting data in SQL.
     SELECT * 
     FROM CITY 
     WHERE COUNTRYCODE="USA" AND POPULATION>1000000
+    ```
+   </details>
+</details>
+
+<details>
+<summary><b>Revising the Select Query II</b></summary>
+
++ <details>
+    <summary><b>Questions</b></summary>
+
+   Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA. The CITY table is described as follows:
+   <img src="assets/revising-select-query-II.jpg" alt="Table" style="height:100%; width:60%">
+
+
+   </details>
++ <details>
+    <summary><b>Code</b></summary>
+    
+    ```sql
+    code
     ```
    </details>
 </details>
