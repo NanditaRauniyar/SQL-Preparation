@@ -538,3 +538,31 @@ These are the fundamental operations for selecting data in SQL.
     ```
    </details>
 </details>
+
+<details>
+<summary><b>Employee Names</b></summary>
+
++ <details>
+    <summary><b>Questions</b></summary>
+
+   Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+
+    Input Format
+
+    The Employee table containing employee data for a company is described as follows:
+   <img src="assets/Employee-Names.png" alt="Table" style="height:100%; width:60%">
+
+   where employee_id is an employee's ID number, name is their name, months is the total number of months they've been working for the company, and salary is their monthly salary.
+
+
+   </details>
++ <details>
+    <summary><b>Code</b></summary>
+    
+    ```sql
+    SELECT NAME 
+    FROM EMPLOYEE 
+    ORDER BY NAME
+    ```
+   </details>
+</details>
