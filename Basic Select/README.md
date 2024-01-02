@@ -133,7 +133,9 @@ These are the fundamental operations for selecting data in SQL.
     <summary><b>Code</b></summary>
     
     ```sql
-    code
+    SELECT * 
+    FROM CITY 
+    WHERE ID=1661
     ```
    </details>
 </details>
