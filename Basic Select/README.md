@@ -221,7 +221,9 @@ These are the fundamental operations for selecting data in SQL.
     <summary><b>Code</b></summary>
     
     ```sql
-    code
+    SELECT DISTINCT(CITY) 
+    FROM STATION 
+    WHERE id%2=0
     ```
    </details>
 </details>
